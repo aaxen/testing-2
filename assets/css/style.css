@@ -1,0 +1,37 @@
+body 
+{
+ 	/* font-family: 'DFPHeiMedium-B5'; */
+	font-family: "DFHei Std W7";
+  	margin: 0;
+  	width: 1024px;
+  	/*height: 768px;*/
+
+  	/* Disable Text Selection */
+	-ms-user-select: none;
+	user-select: none;
+
+	/* Disbale dragging */
+    user-drag: none;
+    
+}
+
+div, a, span, ul, li, table, tr, td, p {
+ 	/* font-family: 'DFPHeiMedium-B5'; */
+	font-family: "DFHei Std W7";
+}
+
+a, a:hover, a:link, a:active, a:visited {
+	text-decoration: none;
+}
+
+#header{
+	height:10vh;
+	width:100vw;
+	border:5px solid blue;
+	overflow: hidden;
+}
+
+#leftContainer{
+	border:5px solid red;
+	height: 90vh;
+}

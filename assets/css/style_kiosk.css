@@ -1,0 +1,2783 @@
+body 
+{
+ 	/* font-family: 'DFPHeiMedium-B5'; */
+	font-family: "DFHei Std W7";
+  	margin: 0;
+  	width: 1280px;
+  	height: 1024px;
+
+  	/* Disable Text Selection */
+	-ms-user-select: none;
+	user-select: none;
+
+	/* Disbale dragging */
+    user-drag: none;
+    background: #FFFFFF url("../../projectAssets/bg_idlemenu.png") no-repeat;
+}
+
+div, a, span, ul, li, table, tr, td, p {
+ 	/* font-family: 'DFPHeiMedium-B5'; */
+	font-family: "DFHei Std W7";
+}
+
+a, a:hover, a:link, a:active, a:visited {
+	text-decoration: none;
+}
+
+.logo 
+{
+  width: 294px;
+  padding: 20px 0 0 20px;
+  position: relative;
+  float: left;
+}
+
+
+#main
+{
+	width: 1280px;
+  	height: 1024px;
+  	margin: 0;
+	background: #FFFFFF url("../../projectAssets/kiosk/bg_mountain.png") no-repeat;
+}
+
+.transactionInfoScreen
+{
+	width: 100%;
+	height: 110px;
+	background: #FFFFFF;
+}
+
+.transactionInfoLabels
+{	position: absolute;
+	top: 0px;
+}
+
+.transactionInfoLabelsStandardLbl
+{
+	padding-top: 25px;
+	padding-left: 187px;
+	font-size: 40px;
+	color: #0ba29a;
+	text-align: left;
+}
+
+.transactionInfoScreenImage
+{
+	padding-top: 16px;
+	padding-left: 64px;
+
+}
+
+
+.IDLEMENU .idleTitle
+{
+	color: #FFFFFF;
+	font-size: 63px;
+	font-weight: bold;
+	background: #FFFFFF url("../../projectAssets/kiosk/idlemenu_topbar.png") no-repeat;
+	position: absolute;
+	top: -70px;
+	width: 100%;
+	height: 169px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 50px;
+	border-radius: 0px;
+}
+
+.buttonCreditCardPayment_btn
+{
+	position: absolute;
+	top: 130px;
+	left: 0px;
+	width: 420px;
+	height: 689px;
+	background: url("../../projectAssets/kiosk/btn_idlemenu_creditcardpayment.png") no-repeat;
+}
+.buttonCreditCardPayment_btn p
+{
+	padding-top: 555px;
+	font-size: 42px;
+	text-align: center;
+}
+
+
+.buttonCreditCardAcc_btn
+{
+	position: absolute;
+	top: 130px;
+	left: 430px;
+	width: 420px;
+	height: 689px;
+	background: url("../../projectAssets/kiosk/btn_idlemenu_accountinfo.png") no-repeat;
+}
+.buttonCreditCardAcc_btn p
+{
+	padding-top: 555px;
+	font-size: 42px;
+	text-align: center;
+}
+
+.buttonCreditCardInfo_btn
+{
+	position: absolute;
+	top: 130px;
+	left: 860px;
+	width: 420px;
+	height: 689px;
+	background: url("../../projectAssets/kiosk/btn_idlemenu_creditcardbenefit.png") no-repeat;
+}
+.buttonCreditCardInfo_btn .labelline1
+{	padding-top: 530px;
+	font-size: 42px;
+	text-align: center;
+}
+.buttonCreditCardInfo_btn .labelline2
+{	padding-top: 1px;
+	margin-top: -15px;
+	font-size: 42px;
+	text-align: center;
+}
+
+#activeListener
+{
+	width: 1280px;
+  	height: 1024px;
+  	margin: 0;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	z-index: 100;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#activeListener div.messageArea {
+	width: 800px;
+	height: 180px;
+	background-color: #FFFFFF;
+	padding: 15px;
+	margin: 300px auto 0 auto;
+}
+
+.activeListenerButtons {
+	width: 440px;
+	margin: -20px auto 0 auto;
+	position: relative;
+	height: 100px;
+}
+
+#activeListener .activeListenerButtons a {
+	position: relative;
+	float: left;
+	color: #FFFFFF;
+	width: 200px;
+	background: #24B7B3;
+	margin: 10px;
+	padding-top: 15px;
+}
+
+#dataProcess
+{
+	width: 0px;
+  	height: 0px;
+}
+
+#shell
+{
+	width: 1280px;
+  	height: 1024px;
+  	margin: 0;
+}
+
+#activeListenerContainer
+{
+  	margin: 0;
+  	width: 1280px;
+  	height: 1024px;
+  	position: absolute;
+  	background: #FFFFFF url("../../projectAssets/bg.png") no-repeat;
+}
+
+#backgroundContainer
+{
+  	margin: 0;
+  	width: 1280px;
+  	height: 1024px;
+  	position: absolute;
+  	background: #FFFFFF url("../../projectAssets/bg.png") no-repeat;
+}
+
+/* Generic Settings */
+.twoButtonScreen,
+.summaryScreen {
+	width:1280px;
+	/* height: 518px; */
+	height: 100%;
+	text-decoration: none;
+	padding: 55px 85px 0 85px;
+}
+
+.transactionSummaryScreen {
+	width:1280px;
+	height: 100%;
+	text-decoration: none;
+	padding: 55px 0 0 0;
+}
+
+.inputScreen{
+	width:1280px;
+	/* height: 518px; */
+	height: 100%;
+	text-decoration: none;
+	padding: 25px 85px 0 85px;
+}
+
+
+/* English Font Size */
+.sixButtonScreenLabel2,
+.twoButtonScreenLbl2,
+.inputScreenLbl2,
+.summaryScreenLbl2,
+.descriptionLine2,
+.myFavScreenLabel2,
+.listBoxScreenLabel2,
+.activeListnerLabel2,
+.activeTimerBtnLbl2,
+.sixBtnScreenBtnLbl2 {
+ 	font-size: 18px;
+ 	margin-top: -10px;
+ 	margin-bottom: 15px;
+}
+
+.twoButtonScreenLbl4
+{
+	font-size: 32px;
+}
+/* Title Font Size */
+.sixButtonScreenLabel1,
+.twoButtonScreenLbl1,
+.inputScreenLbl1,
+.summaryScreenLbl1,
+.descriptionLine1,
+.myFavScreenLabel1,
+.listBoxScreenLabel1 {
+  	font-size: 38px;
+}
+
+/* Middle Title Size */
+.activeListnerLabel1,
+.sixBtnScreenBtnLbl1 {
+	font-size: 28px;
+}
+
+/* Small Button Font Size */
+.activeTimerBtnLbl1 {
+	font-size: 22px;
+}
+
+input[type="text"] {
+	width: 400px;
+	height: 60px;
+	margin: 10px auto 0 auto;
+	font-size: 30px;
+	text-align: right;
+	border-radius: 10px;
+	font-weight: normal;
+}
+
+input[type="text"]::-ms-clear {
+    display: none;
+}
+
+table {
+	margin: 0;
+	padding: 0;
+}
+
+table tr,
+table tr:nth-of-type(2n) {
+	background-color: transparent;
+}
+
+.leftNavigation .sixButtonNavigationButtons,
+.leftNavigation .listBoxScreenArea {
+	 background: url("../../projectAssets/content/btn_left.png") no-repeat; 
+}
+
+.rightNavigation .sixButtonNavigationButtons,
+.rightNavigation .listBoxScreenArea {
+	 background: url("../../projectAssets/content/btn_right.png") no-repeat; 
+}
+
+.leftNavigation .disabled {
+	 background: url("../../projectAssets/content/btn_left_disabled.png") no-repeat; 
+}
+
+.rightNavigation .disabled {
+	 background: url("../../projectAssets/content/btn_right_disabled.png") no-repeat; 
+}
+/* End */
+
+/* Top Bar Section */
+#headerContainer 
+{
+	top : 0px;
+	height: 65px;
+	margin: 0;
+	position: absolute;
+	width: 1280px;
+}
+
+#selectedAcctContainer
+{
+  height: 45px;
+  margin: 0;
+  width: 600px;
+  position: relative;
+  float: right;
+  padding-top: 20px;
+}
+
+#selectedAcctContainer .accountInformationScreen {
+	width: 270px;
+	position: relative;
+	float: right;
+	font-size: 16px;
+	text-align: right;
+	height: 30px;
+}
+
+#selectedAcctContainer .accountInformationScreen:first-child {
+	width: 270px;
+	margin-left: 10px;
+	border-left: 1px solid #D3D3D3;
+	text-align: right;
+	padding-right: 25px;
+}
+
+#selectedAcctContainer .cardStatus {
+	color: #D53663;
+	padding-right: 15px;
+}
+
+#selectedAcctContainer .cardNumber {
+	border-left: 1px solid #D3D3D3;
+	text-align: left;
+	line-height: 1;
+}
+
+#selectedAcctContainer .cardNumber .line1 {
+	padding-left: 6px;
+}
+
+#selectedAcctContainer .cardNumber .line2 {
+	font-size: 12px;
+	padding-left: 6px;
+}
+
+#selectedAcctContainer .cardNumber .label2 {
+	position: absolute;
+	margin-top: 5px;
+	right: 10px;
+}
+
+#selectedAcctContainer .cardStatusEN {
+	width: 400px;
+	position: absolute;
+	right: 0;
+}
+
+#selectedAcctContainer .cardStatusEN .label1 {
+	color: #D53663;
+	padding: 0;
+	margin: 0;
+	padding-right: 15px;
+}
+/* End Top Bar Section */
+
+#contentViewContainer 
+{
+	top : 65px;
+  	height: 523px;
+  	margin: 0;
+  	position: absolute;
+  	width: 1280px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+#personalContainer 
+{
+	top : 586px;
+  	position: absolute;
+  	height: 55px;
+  	margin: 0;
+  	width: 100%;
+}
+
+/** listButtonContainer **/
+.listButtonScreen
+{
+	width:1280px;
+	height: 518px;
+	text-decoration: none;
+}
+
+/**Six Button Module **/
+p.sixButtonScreenLabel1 {
+	margin-top: 55px;
+}
+
+.sixButtonScreenButtons a {
+	width: 243px;
+	height: 85px;
+	text-align: center;
+	position: relative;
+	display: block;
+	color: #FFFFFF;
+	margin: 10px auto;
+	vertical-align: center;
+	background-color: #24B7B3;
+}
+
+.sixButtonScreenButtons div.line1,
+.sixButtonScreenButtons div.line2 {
+	width: 243px;
+	position: relative;
+	float: none;
+}
+
+.sixButtonScreenButtons a.witdrawalFastCash,
+.sixButtonScreenButtons a.withdrawalOthers ,
+.sixButtonScreenButtons a.withdrawalAccount,
+.sixButtonScreenButtons a.creditCardOthers,  
+.sixButtonScreenButtons a.balanceInquiryAcct,  
+.sixButtonScreenButtons a.labourContributionInqClass,
+.sixButtonScreenButtons a.withdrawalTwoLines 
+{
+	background-color: #24B7B3;
+}
+
+.sixButtonScreenButtons a.witdrawalDisableFastCash,
+.sixButtonScreenButtons a.withdrawalDisableOthers,
+.sixButtonScreenButtons a.balanceInquiryAcctDisable,  
+.sixButtonScreenButtons a.withdrawalAccountDisable,
+.sixButtonScreenButtons a.withdrawalDisableTwoLines
+{
+	background-color: #C2C2C2;
+}
+
+.sixButtonScreenButtons .line1 {
+	padding-top: 18px;
+}
+
+.sixButtonScreenButtons .label1 {
+	font-size: 24px;
+}
+
+.sixButtonScreenButtons .label2 {
+	font-size: 28px;
+	font-weight: normal;
+}
+
+
+.sixButtonScreenButtons .withdrawalOthers .label1,
+.sixButtonScreenButtons .withdrawalTwoLines .label1 {
+	font-size: 26px;
+	font-weight: normal;
+}
+
+.sixButtonScreenButtons .withdrawalOthersEnglish .label1 {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.sixButtonScreenButtons .withdrawalOthers .label3 {
+	font-size: 16px;
+}
+
+.sixButtonScreenButtons .withdrawalTwoLines .label3 {
+	display: block;
+	line-height: 1;
+}
+
+.sixButtonScreenButtons .withdrawalDisableOthers .label1 {
+	font-size: 26px;
+	font-weight: normal;
+}
+
+.sixButtonScreenButtons .withdrawalDisableOthers .label3 {
+	font-size: 16px;
+}
+
+.sixButtonScreenButtons .creditCardOthers .label1 {
+	font-size: 26px;
+	font-weight: normal;
+}
+
+.sixButtonScreenButtons .creditCardOthers .label3 {
+	font-size: 14px;
+}
+
+.sixButtonScreenButtons .withdrawalOthers .line1,
+.sixButtonScreenButtons .withdrawalTwoLines .line1 {
+	padding-top: 10px;
+}
+
+.sixButtonScreenButtons .withdrawalOthers .line2,
+.sixButtonScreenButtons .withdrawalTwoLines .line2 {
+	margin-top: -5px;
+}
+
+.sixButtonScreenButtons .withdrawalOthersEnglish .line1 {
+	padding-top: 15px;
+}
+
+.sixButtonScreenButtons .withdrawalDisableOthers .line1 {
+	padding-top: 10px;
+}
+
+.sixButtonScreenButtons .withdrawalDisableOthers .line2 {
+	margin-top: -5px;
+}
+
+.sixButtonScreenButtons .creditCardOthers .line1 {
+	padding-top: 10px;
+}
+
+.sixButtonScreenButtons .creditCardOthers .line2 {
+	margin-top: -5px;
+}
+
+.sixButtonScreenButtons .withdrawalAccount .label1,
+.sixButtonScreenButtons .withdrawalAccountDisable .label1,
+.sixButtonScreenButtons .balanceInquiryAcctDisable .label1,
+.sixButtonScreenButtons .balanceInquiryAcct .label1 {
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.sixButtonScreenButtons .labourContributionInqClass .label1 {
+	font-size: 20px;
+}
+
+.sixButtonScreenButtons .withdrawalAccount .label3,
+.sixButtonScreenButtons .withdrawalAccountDisable .label3,
+.sixButtonScreenButtons .balanceInquiryAcctDisable .label3,
+.sixButtonScreenButtons .balanceInquiryAcct .label3 {
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.sixButtonScreenButtons .withdrawalAccount .line1,
+.sixButtonScreenButtons .balanceInquiryAcctDisable .line1,
+.sixButtonScreenButtons .withdrawalAccountDisable .line1,
+.sixButtonScreenButtons .balanceInquiryAcct .line1 {
+	padding-top: 10px;
+}
+
+.sixButtonScreenButtons .withdrawalAccount .line2,
+.sixButtonScreenButtons .balanceInquiryAcctDisable .line2,
+.sixButtonScreenButtons .withdrawalAccountDisable .line2,
+.sixButtonScreenButtons .balanceInquiryAcct .line2 {
+	margin-top: -10px;
+}
+
+.sixButtonScreenButtons .balanceInquiryAcct .line1,
+.sixButtonScreenButtons .balanceInquiryAcctDisable .line1 {
+	padding-top: 25px;
+} 
+
+.sixButtonNavigationButtons {
+	height: 70px;
+	width: 40px;
+	margin-top: 220px;
+}
+
+.leftNavigation,
+.rightNavigation {
+	width: 85px;
+	padding-left: 22px;
+}
+
+.centerColumn {
+	width: 854px;
+}
+
+.leftNavigation,
+.rightNavigation,
+.centerColumn {
+	position: relative;
+	float: left;
+	height: 523px;
+}
+
+.centerColumn .item, 
+.centerColumn .block3 {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 0;
+}
+
+.centerColumn .block3 li {
+	width: 33%;
+	position: relative;
+	float: left;
+	display: block;
+}
+
+.sixButtonScreenContent {
+	position: relative;
+	display: block;
+}
+
+.sixButtonScreenExtraButtons {
+	display: block;
+	position: relative;
+	width: 440px;
+	margin: 10px auto;
+}
+
+.singleColExtraButtons {
+	width: 220px;
+}
+
+.sixBtnExtraButtons1,
+.sixBtnExtraButtons2 {
+	background-color: #24B7B3;
+	width: 200px;
+	height: 65px;
+	color: #FFFFFF;
+	text-align: center;
+	position: relative;
+	display: block;
+	float: left;
+	padding-top: 10px;
+	margin: 10px;
+}
+
+.sixBtnExtraButtons1 .sixBtnScreenBtnLbl1,
+.sixBtnExtraButtons2 .sixBtnScreenBtnLbl1 {
+	font-size: 20px;
+}
+
+.sixBtnExtraButtons1 .sixBtnScreenBtnLbl2,
+.sixBtnExtraButtons2 .sixBtnScreenBtnLbl2 {
+	font-size: 15px;
+}
+/* End */
+
+/** Two Button Screen **/
+.twoBtnScreenYes,
+.twoBtnScreenNo,
+.twoBtnScreenOthers,
+.twoLineLong,
+.inquiryConfirm {
+	 width: 315px;
+	 height: 85px;
+	 margin: 20px auto;
+	 text-decoration: none;
+	 color: #FFFFFF;
+	 text-align: center;
+	 display: block;
+	 background-color: #24B7B3;
+	 padding-top: 15px;
+}
+
+.twoBtnScreenYes:hover,
+.twoBtnScreenNo:hover,
+.twoBtnScreenOthers:hover,
+.twoLineLong:hover,
+.sixBtnExtraButtons1:hover,
+.sixBtnExtraButtons2:hover,
+.inquiryConfirm:hover {
+	 color: #FFFFFF;
+}
+
+.twoButtonScreen .label1,
+.twoButtonScreen .label3,
+.twoLineLong .label1,
+.inquiryConfirm .label1 {
+	font-size: 33px;
+}
+
+.twoLineLong .label4,
+.inquiryConfirm .label4 {
+	font-size: 20px;
+}
+
+.twoButtonScreen .label2,
+.twoLineLong .label2 {
+	font-size: 22px;
+}
+
+.twoLineLong,
+.inquiryConfirm {
+	padding-top: 8px;
+	width: 380px;
+}
+
+.twoLineLong .line2,
+.inquiryConfirm .line2 {
+	margin-top: -10px;
+}
+
+.twoButtonScreenLabels .twoButtonFavoriteDataLbl
+{
+	font-size: 33px;
+	font-weight: normal;	
+ 	margin-top: -10px;
+ 	margin-bottom: 15px;
+ 	text-align: center;
+	color: #FFFFFF;
+	list-style-type: none;
+	background-color: #24B7B3;
+}
+
+.twoButtonScreenLabels .laborApplyInsuranceWarningLblChiLbl1
+{
+	font-size: 33px;
+	font-weight: normal;	
+ 	margin-top: -10px;
+ 	margin-bottom: 15px;
+ 	text-align: left;
+	color: #FF0000;
+	list-style-type: none;
+}
+
+.twoButtonScreenLabels .laborApplyInsuranceWarningLblChiLbl2
+{
+	font-size: 26px;
+ 	margin-top: -10px;
+ 	margin-bottom: 15px;
+ 	text-align: center;
+	list-style-type: none;
+}
+
+.twoButtonScreenLabels .laborApplyInsuranceWarningLblChiLbl3
+{
+	font-size: 26px;
+ 	margin-top: -10px;
+ 	margin-bottom: 15px;
+ 	text-align: center;
+	list-style-type: none;
+}
+.twoButtonScreenLabels .laborApplyInsuranceWarningLblEngLbl1
+{
+	font-size: 33px;
+	font-weight: normal;	
+ 	margin-top: -10px;
+ 	margin-bottom: 15px;
+ 	text-align: left;
+	color: #FF0000;
+	list-style-type: none;
+}
+
+.twoButtonScreenLabels .laborApplyInsuranceWarningLblEngLbl2
+{
+	font-size: 26px;
+ 	margin-top: -10px;
+ 	margin-bottom: 15px;
+ 	text-align: center;
+	list-style-type: none;
+}
+
+
+.btn_scanbarcode
+{
+	position: absolute;
+	top: 255px;
+	left: 172px;
+	width: 294px;
+	height: 294px;
+	background: url("../../projectAssets/kiosk/btn_menu_squarebutton.png") no-repeat;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+	color: #FFFFFF;
+}
+
+.btn_scanbarcode .label1
+{
+	padding-top: 124px;
+	font-size: 36px;
+	text-align: center;
+	display: block;
+}
+
+
+
+.btn_insertic
+{
+	position: absolute;
+	top: 255px;
+	left: 504px;
+	width: 294px;
+	height: 294px;
+	background: url("../../projectAssets/kiosk/btn_menu_squarebutton.png") no-repeat;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+	color: #FFFFFF;
+}
+.btn_insertic .label1
+{
+	padding-top: 100px;
+	font-size: 36px;
+	text-align: center;
+	display: block;
+}
+
+.btn_insertic .label2
+{
+	font-size: 36px;
+	text-align: center;
+	display: block;
+}
+
+
+.btn_insertcreditcard
+{
+	position: absolute;
+	top: 255px;
+	left: 834px;
+	width: 294px;
+	height: 294px;
+	background: url("../../projectAssets/kiosk/btn_menu_squarebutton.png") no-repeat;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+	color: #FFFFFF;
+}
+
+.pressed .btn_insertcreditcard
+{
+	position: absolute;
+	top: 255px;
+	left: 834px;
+	width: 294px;
+	height: 294px;
+	background: url("../../projectAssets/kiosk/btn_menu_squarebutton_pressed.png") no-repeat;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+	color: #FFFFFF;
+}
+
+.btn_insertcreditcard .label1
+{
+	padding-top: 100px;
+	font-size: 36px;
+	text-align: center;
+	display: block;
+}
+.btn_insertcreditcard .label2
+{
+	font-size: 36px;
+	text-align: center;
+	display: block;
+}
+
+
+
+
+/* End */
+
+/** processingScreen **/
+.transactionStateScreen
+{
+	width:1280px;
+	height: 518px;
+	text-decoration: none;
+}
+
+.processPleaseWaitImg 
+{
+  padding: 0 0 0 0;
+  position: relative;
+  float: left;
+ /* content:url("projectAssets/pleasewait.png");*/
+}
+
+/* Preference Bar */
+.listSelectionScreen,
+a.listSelectionScreenButton {
+	width: 230px;
+	position: relative;
+	float: right;
+	background-color: #A1D7DD;
+	height: 55px;
+}
+
+a.listSelectionScreenButton {
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+	padding: 5px 15px 0 60px;
+}
+
+a.listSelectionScreenButton .label1,
+a.listSelectionScreenButton .label2 {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+a.listSelectionScreenButton .label1{
+	font-size: 22px;
+}
+
+a.listSelectionScreenButton .label2{
+	font-size: 16px;
+}
+/* End */
+
+/* Menu/Quick Access Bar */
+#menuBarContainer 
+{
+  height: 190px;
+  margin: 0;
+  /*background: #F39938;*/
+  text-decoration: none;
+  position: absolute;
+  top: 834px;
+  width: 100%;
+}
+
+#menuBarItem 
+{
+	width:320px;
+	height: 190px;
+	position: relative;
+	float:left;
+	text-decoration: none;
+}
+
+.menuBarBtnFavorite
+{
+	 background: #FFFFFF url("../../projectAssets/menu/btn_menu_favorite.png") repeat-x;
+}
+
+.menuBarBtnFavoriteDisable
+{
+	 background: #FFFFFF url("../../projectAssets/menu/btn_menu_favorite_disable.png") repeat-x;
+}
+
+.pressed .menuBarBtnFavorite
+{
+	 background: #FFFFFF url("../../projectAssets/menu/btn_menu_favorite_pressed.png") repeat-x;
+}
+
+.menuBarBtnWithdrawal
+{
+	 background: url("../../projectAssets/kiosk/btn_menu_paycreditcard.png") repeat-x;
+}
+
+.pressed .menuBarBtnWithdrawal
+{
+	 background: url("../../projectAssets/kiosk/btn_menu_paycreditcard_pressed.png") repeat-x;
+}
+
+.menuBarBtnWithdrawaldisabled
+{
+	 background: #FFFFFF url("../../projectAssets/menu/btn_menu_withdrawal_disable.png") repeat-x;
+}
+
+.menuBarBtnInquiry
+{
+	 background: url("../../projectAssets/kiosk/btn_menu_payaccount.png") repeat-x;
+}
+
+.pressed .menuBarBtnInquiry
+{
+	 background: url("../../projectAssets/kiosk/btn_menu_payaccount_pressed.png") repeat-x;
+}
+
+.menuBarBtnTransfer
+{
+	 background: url("../../projectAssets/kiosk/btn_menu_creditcardinfo.png") repeat-x;
+}
+
+.pressed .menuBarBtnTransfer
+{
+	 background: url("../../projectAssets/kiosk/btn_menu_creditcardinfo_pressed.png") repeat-x;
+}
+
+.menuBarBtnPayment
+{
+	 background: #FFFFFF url("../../projectAssets/menu/btn_menu_payment.png") repeat-x;
+}
+
+.pressed .menuBarBtnPayment
+{
+	 background: #FFFFFF url("../../projectAssets/menu/btn_menu_payment_pressed.png") repeat-x;
+}
+
+.menuBarBtnOthers
+{
+	 background: #FFFFFF url("../../projectAssets/menu/btn_menu_others.png") repeat-x;
+}
+
+.pressed .menuBarBtnOthers
+{
+	 background: #FFFFFF url("../../projectAssets/menu/btn_menu_others_pressed.png") repeat-x;
+}
+
+.menuBarBtnCancel
+{
+	 background: url("../../projectAssets/kiosk/btn_menu_canceltransaction.png") repeat-x;
+}
+
+.pressed .menuBarBtnCancel
+{
+	 background: url("../../projectAssets/kiosk/btn_menu_canceltransaction_pressed.png") repeat-x;
+}
+
+
+.menuBtnContainer
+{
+	width:320px;
+	height: 190px;
+	position: relative;
+	float:left;
+	text-decoration: none;
+}
+
+.menuBarBtnChiLbl 
+{
+	margin-top: 115px;
+	font-size : 26px;
+	text-align: center;
+	color: #FFFFFF;
+	list-style-type: none;
+}
+
+.menuBarBtnEngLbl 
+{
+	font-size : 26px;
+	text-align: center;
+	color: #FFFFFF;
+	list-style-type: none;
+	margin-top: -5px;
+	line-height: 1;
+}
+/* End */
+
+/** Softkeyboard **/
+/* SHARE CSS */
+#softKeyboardStringContainer, #softKeyboardNumberContainer {
+  top : 0px;
+  height: 1024px;
+  width: 1280px;
+  margin: 0;
+  position: absolute;
+} 
+
+#softKeyboardStringBtnContainer, #softKeyboardNumberBtnContainer {
+  bottom: 0px;
+  top: auto;
+  height: 419px;
+  width: 1280px;
+  margin: 0;
+  position: absolute;
+  z-index: 3;
+  background: url("../../projectAssets/kiosk/keyboard/bg_keyboard.png") no-repeat;
+} 
+
+.softKeyboardStringFakeContainer, .softKeyboardNumberFakeContainer {
+  top : 0px;
+  height: 1024px;
+  width: 1280px;
+  margin: 0;
+  position: absolute;
+}
+
+/* SINGLE BOX HEIGHT AND WIDTH */
+.skbString_Q, .skbString_W, .skbString_E, .skbString_R, .skbString_T, .skbString_Y, .skbString_U, 
+.skbString_I, .skbString_O, .skbString_P, .skbString_1, .skbString_2, .skbString_3,
+.skbNumber_Q, .skbNumber_W, .skbNumber_E, .skbNumber_R, .skbNumber_T, .skbNumber_Y, .skbNumber_U, 
+.skbNumber_I, .skbNumber_O, .skbNumber_P, .skbNumber_1, .skbNumber_2, .skbNumber_3,
+.skbString_A, .skbString_S, .skbString_D, .skbString_F, .skbString_G, .skbString_H, .skbString_J, 
+.skbString_K, .skbString_L, .skbString_CLEAR, .skbString_4, .skbString_5, .skbString_6,
+.skbNumber_A, .skbNumber_S, .skbNumber_D, .skbNumber_F, .skbNumber_G, .skbNumber_H, .skbNumber_J, 
+.skbNumber_K, .skbNumber_L, .skbNumber_CLEAR, .skbNumber_4, .skbNumber_5, .skbNumber_6, 
+.skbString_Z, .skbString_X, .skbString_C, .skbString_V, .skbString_B, .skbString_N, .skbString_M, 
+.skbString_7, .skbString_8, .skbString_9,
+.skbNumber_Z, .skbNumber_X, .skbNumber_C, .skbNumber_V, .skbNumber_B, .skbNumber_N, .skbNumber_M, 
+.skbNumber_7, .skbNumber_8, .skbNumber_9,
+.skbString_0, .skbNumber_0 {
+  width : 94px;
+  height : 88px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+/* TWO BOX HEIGHT AND WIDTH */
+.skbString_BACKSPACE, .skbString_ENTER, 
+.skbNumber_BACKSPACE, .skbNumber_ENTER { width : 195px; height : 88px; margin: 0px; text-decoration: none; }
+
+/* THREE BOX HEIGHT AND WIDTH */
+.skbString_HIDE, .skbNumber_HIDE { width : 281px; height : 88px; margin: 0px; text-decoration: none; }
+
+/* FIVE BOX HEIGHT AND WIDTH */
+.skbString_SPACE, .skbNumber_SPACE { width : 656px; height : 88px; margin: 0px; text-decoration: none; }
+
+/* ROW 1 */
+.skbString_Q, .skbString_W, .skbString_E, .skbString_R, .skbString_T, .skbString_Y, .skbString_U, 
+.skbString_I, .skbString_O, .skbString_P, .skbString_1, .skbString_2, .skbString_3,
+.skbNumber_Q, .skbNumber_W, .skbNumber_E, .skbNumber_R, .skbNumber_T, .skbNumber_Y, .skbNumber_U, 
+.skbNumber_I, .skbNumber_O, .skbNumber_P, .skbNumber_1, .skbNumber_2, .skbNumber_3 {
+    top: 53px;
+    position: absolute;
+}
+
+.skbString_Q { background: url("../../projectAssets/kiosk/keyboard/String/Q.png") no-repeat; }
+.skbString_W { background: url("../../projectAssets/kiosk/keyboard/String/W.png") no-repeat; }
+.skbString_E { background: url("../../projectAssets/kiosk/keyboard/String/E.png") no-repeat; }
+.skbString_R { background: url("../../projectAssets/kiosk/keyboard/String/R.png") no-repeat; }
+.skbString_T { background: url("../../projectAssets/kiosk/keyboard/String/T.png") no-repeat; }
+.skbString_Y { background: url("../../projectAssets/kiosk/keyboard/String/Y.png") no-repeat; }
+.skbString_U { background: url("../../projectAssets/kiosk/keyboard/String/U.png") no-repeat; }
+.skbString_I { background: url("../../projectAssets/kiosk/keyboard/String/I.png") no-repeat; }
+.skbString_O { background: url("../../projectAssets/kiosk/keyboard/String/O.png") no-repeat; }
+.skbString_P { background: url("../../projectAssets/kiosk/keyboard/String/P.png") no-repeat; }
+.skbString_1 { background: url("../../projectAssets/kiosk/keyboard/String/1.png") no-repeat; }
+.skbString_2 { background: url("../../projectAssets/kiosk/keyboard/String/2.png") no-repeat; }
+.skbString_3 { background: url("../../projectAssets/kiosk/keyboard/String/3.png") no-repeat; }
+.skbNumber_Q { background: url("../../projectAssets/kiosk/keyboard/Number/Q.png") no-repeat; }
+.skbNumber_W { background: url("../../projectAssets/kiosk/keyboard/Number/W.png") no-repeat; }
+.skbNumber_E { background: url("../../projectAssets/kiosk/keyboard/Number/E.png") no-repeat; }
+.skbNumber_R { background: url("../../projectAssets/kiosk/keyboard/Number/R.png") no-repeat; }
+.skbNumber_T { background: url("../../projectAssets/kiosk/keyboard/Number/T.png") no-repeat; }
+.skbNumber_Y { background: url("../../projectAssets/kiosk/keyboard/Number/Y.png") no-repeat; }
+.skbNumber_U { background: url("../../projectAssets/kiosk/keyboard/Number/U.png") no-repeat; }
+.skbNumber_I { background: url("../../projectAssets/kiosk/keyboard/Number/I.png") no-repeat; }
+.skbNumber_O { background: url("../../projectAssets/kiosk/keyboard/Number/O.png") no-repeat; }
+.skbNumber_P { background: url("../../projectAssets/kiosk/keyboard/Number/P.png") no-repeat; }
+.skbNumber_1 { background: url("../../projectAssets/kiosk/keyboard/Number/1.png") no-repeat; }
+.skbNumber_2 { background: url("../../projectAssets/kiosk/keyboard/Number/2.png") no-repeat; }
+.skbNumber_3 { background: url("../../projectAssets/kiosk/keyboard/Number/3.png") no-repeat; }
+
+/* ROW 2 */
+.skbString_A, .skbString_S, .skbString_D, .skbString_F, .skbString_G, .skbString_H, .skbString_J, 
+.skbString_K, .skbString_L, .skbString_CLEAR, .skbString_4, .skbString_5, .skbString_6,
+.skbNumber_A, .skbNumber_S, .skbNumber_D, .skbNumber_F, .skbNumber_G, .skbNumber_H, .skbNumber_J, 
+.skbNumber_K, .skbNumber_L, .skbNumber_CLEAR, .skbNumber_4, .skbNumber_5, .skbNumber_6 {
+    top: 135px;
+    position: absolute;
+}
+
+.skbString_A { background: url("../../projectAssets/kiosk/keyboard/String/A.png") no-repeat; }
+.skbString_S { background: url("../../projectAssets/kiosk/keyboard/String/S.png") no-repeat; }
+.skbString_D { background: url("../../projectAssets/kiosk/keyboard/String/D.png") no-repeat; }
+.skbString_F { background: url("../../projectAssets/kiosk/keyboard/String/F.png") no-repeat; }
+.skbString_G { background: url("../../projectAssets/kiosk/keyboard/String/G.png") no-repeat; }
+.skbString_H { background: url("../../projectAssets/kiosk/keyboard/String/H.png") no-repeat; }
+.skbString_J { background: url("../../projectAssets/kiosk/keyboard/String/J.png") no-repeat; }
+.skbString_K { background: url("../../projectAssets/kiosk/keyboard/String/K.png") no-repeat; }
+.skbString_L { background: url("../../projectAssets/kiosk/keyboard/String/L.png") no-repeat; }
+.skbString_CLEAR { background: url("../../projectAssets/kiosk/keyboard/clear.png") no-repeat; }
+.skbString_4 { background: url("../../projectAssets/kiosk/keyboard/String/4.png") no-repeat; }
+.skbString_5{ background: url("../../projectAssets/kiosk/keyboard/String/5.png") no-repeat; }
+.skbString_6 { background: url("../../projectAssets/kiosk/keyboard/String/6.png") no-repeat; }
+.skbNumber_A { background: url("../../projectAssets/kiosk/keyboard/Number/A.png") no-repeat; }
+.skbNumber_S { background: url("../../projectAssets/kiosk/keyboard/Number/S.png") no-repeat; }
+.skbNumber_D { background: url("../../projectAssets/kiosk/keyboard/Number/D.png") no-repeat; }
+.skbNumber_F { background: url("../../projectAssets/kiosk/keyboard/Number/F.png") no-repeat; }
+.skbNumber_G { background: url("../../projectAssets/kiosk/keyboard/Number/G.png") no-repeat; }
+.skbNumber_H { background: url("../../projectAssets/kiosk/keyboard/Number/H.png") no-repeat; }
+.skbNumber_J { background: url("../../projectAssets/kiosk/keyboard/Number/J.png") no-repeat; }
+.skbNumber_K { background: url("../../projectAssets/kiosk/keyboard/Number/K.png") no-repeat; }
+.skbNumber_L { background: url("../../projectAssets/kiosk/keyboard/Number/L.png") no-repeat; }
+.skbNumber_CLEAR { background: url("../../projectAssets/kiosk/keyboard/clear.png") no-repeat; }
+.skbNumber_4 { background: url("../../projectAssets/kiosk/keyboard/Number/4.png") no-repeat; }
+.skbNumber_5 { background: url("../../projectAssets/kiosk/keyboard/Number/5.png") no-repeat; }
+.skbNumber_6 { background: url("../../projectAssets/kiosk/keyboard/Number/6.png") no-repeat; }
+
+/* ROW 3 */
+.skbString_Z, .skbString_X, .skbString_C, .skbString_V, .skbString_B, .skbString_N, .skbString_M, 
+.skbString_BACKSPACE, .skbString_7, .skbString_8, .skbString_9,
+.skbNumber_Z, .skbNumber_X, .skbNumber_C, .skbNumber_V, .skbNumber_B, .skbNumber_N, .skbNumber_M, 
+.skbNumber_BACKSPACE, .skbNumber_7, .skbNumber_8, .skbNumber_9 {
+    top: 227px;
+    position: absolute;
+}
+
+.skbString_Z { background: url("../../projectAssets/kiosk/keyboard/String/Z.png") no-repeat; }
+.skbString_X { background: url("../../projectAssets/kiosk/keyboard/String/X.png") no-repeat; }
+.skbString_C { background: url("../../projectAssets/kiosk/keyboard/String/C.png") no-repeat; }
+.skbString_V { background: url("../../projectAssets/kiosk/keyboard/String/V.png") no-repeat; }
+.skbString_B { background: url("../../projectAssets/kiosk/keyboard/String/B.png") no-repeat; }
+.skbString_N { background: url("../../projectAssets/kiosk/keyboard/String/N.png") no-repeat; }
+.skbString_M { background: url("../../projectAssets/kiosk/keyboard/String/M.png") no-repeat; }
+.skbString_BACKSPACE { background: url("../../projectAssets/kiosk/keyboard/erase.png") no-repeat; }
+.skbString_7 { background: url("../../projectAssets/kiosk/keyboard/String/7.png") no-repeat; }
+.skbString_8 { background: url("../../projectAssets/kiosk/keyboard/String/8.png") no-repeat; }
+.skbString_9 { background: url("../../projectAssets/kiosk/keyboard/String/9.png") no-repeat; } 
+.skbNumber_Z { background: url("../../projectAssets/kiosk/keyboard/Number/Z.png") no-repeat; }
+.skbNumber_X { background: url("../../projectAssets/kiosk/keyboard/Number/X.png") no-repeat; }
+.skbNumber_C { background: url("../../projectAssets/kiosk/keyboard/Number/C.png") no-repeat; }
+.skbNumber_V { background: url("../../projectAssets/kiosk/keyboard/Number/V.png") no-repeat; }
+.skbNumber_B { background: url("../../projectAssets/kiosk/keyboard/Number/B.png") no-repeat; }
+.skbNumber_N { background: url("../../projectAssets/kiosk/keyboard/Number/N.png") no-repeat; }
+.skbNumber_M { background: url("../../projectAssets/kiosk/keyboard/Number/M.png") no-repeat; }
+.skbNumber_BACKSPACE { background: url("../../projectAssets/kiosk/keyboard/erase.png") no-repeat; }
+.skbNumber_7 { background: url("../../projectAssets/kiosk/keyboard/Number/7.png") no-repeat; }
+.skbNumber_8 { background: url("../../projectAssets/kiosk/keyboard/Number/8.png") no-repeat; }
+.skbNumber_9 { background: url("../../projectAssets/kiosk/keyboard/Number/9.png") no-repeat; } 
+
+/* ROW 4 */
+.skbString_SPACE, .skbString_HIDE, .skbString_0, .skbString_ENTER,
+.skbNumber_SPACE, .skbNumber_HIDE, .skbNumber_0, .skbNumber_ENTER {
+    top: 323px;
+    position: absolute;
+}
+
+.skbString_SPACE, .skbNumber_SPACE { }
+.skbString_HIDE, .skbNumber_HIDE { background: url("../../projectAssets/kiosk/keyboard/hidekeyboard.png") no-repeat; }  
+.skbString_ENTER, .skbNumber_ENTER { background: url("../../projectAssets/kiosk/keyboard/btn_keyboard_enter.png") no-repeat; }
+.skbString_0 { background: url("../../projectAssets/kiosk/keyboard/String/0.png") no-repeat; }
+.skbNumber_0 { background: url("../../projectAssets/kiosk/keyboard/Number/0.png") no-repeat; }
+
+/* COLUMN 1 */
+.skbString_Q, .skbString_A, .skbString_Z, .skbString_SPACE, 
+.skbNumber_Q, .skbNumber_A, .skbNumber_Z, .skbNumber_SPACE {
+    left: 0px;
+}
+
+/* COLUMN 2 */
+.skbString_W, .skbString_S, .skbString_X, 
+.skbNumber_W, .skbNumber_S, .skbNumber_X {
+  left: 95px;
+}
+
+/* COLUMN 3 */
+.skbString_E, .skbString_D, .skbString_C, 
+.skbNumber_E, .skbNumber_D, .skbNumber_C {
+  left: 195px;
+}
+
+/* COLUMN 4 */
+.skbString_R, .skbString_F, .skbString_V, 
+.skbNumber_R, .skbNumber_F, .skbNumber_V {
+  left: 295px;
+}
+
+/* COLUMN 5 */
+.skbString_T, .skbString_G, .skbString_B, 
+.skbNumber_T, .skbNumber_G, .skbNumber_B {
+  left: 395px;
+}
+
+/* COLUMN 6 */
+.skbString_Y, .skbString_H, .skbString_N, 
+.skbNumber_Y, .skbNumber_H, .skbNumber_N {
+  left: 495px;
+}
+
+/* COLUMN 7 */
+.skbString_U, .skbString_J, .skbString_M, 
+.skbNumber_U, .skbNumber_J, .skbNumber_M {
+  left: 590px;
+}
+
+/* COLUMN 8 */
+.skbString_I, .skbString_K, .skbString_HIDE, 
+.skbNumber_I, .skbNumber_K, .skbNumber_HIDE {
+  left: 690px;
+}
+
+/* COLUMN 9 */
+.skbString_O, .skbString_L, .skbString_BACKSPACE, 
+.skbNumber_O, .skbNumber_L, .skbNumber_BACKSPACE {
+  left: 785px;
+}
+
+/* COLUMN 10 */
+.skbString_P, .skbString_CLEAR,
+.skbNumber_P, .skbNumber_CLEAR {
+  left: 885px;
+}
+
+/* COLUMN 11 */
+.skbString_1, .skbString_4, .skbString_7, .skbString_0, 
+.skbNumber_1, .skbNumber_4, .skbNumber_7, .skbNumber_0 {
+  left: 985px;
+}
+
+/* COLUMN 12 */
+.skbString_2, .skbString_5, .skbString_8, .skbString_ENTER, 
+.skbNumber_2, .skbNumber_5, .skbNumber_8, .skbNumber_ENTER {
+  left: 1080px;
+}
+
+/* COLUMN 13 */
+.skbString_3, .skbString_6, .skbString_9, 
+.skbNumber_3, .skbNumber_6, .skbNumber_9 {
+  left: 1180px;
+}
+
+/* LABEL */
+.skbEnterLblChi { color: #FFFFFF; font-size: 28px; text-shadow: 1px 1px 0px rgba(0,0,0,1); text-align: right; }
+.skbEnterLblEng { color: #FFFFFF; font-size: 16px; text-shadow: 1px 1px 0px rgba(0,0,0,1); text-align: right; }
+.skbStringSpaceLbl { color: #FFFFFF; font-size: 36px; text-shadow: 1px 1px 0px rgba(0,0,0,1); text-align: center; vertical-align : middle; }
+
+/* Account Selection */
+.listSelectionScreenSelection {
+	position: absolute;
+	bottom: 55px;
+	margin: 0;
+	right: 0px;
+	width: 230px;
+	z-index: 2;
+}
+
+.listSelectionScreenSelection p {
+	line-height: 1;
+}
+
+.listSelectionScreenSelection li {
+	list-style-type: none;
+	padding: 10px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.listSelectionScreenSelection .title {
+	background-color: #24B7B3;
+	padding: 10px;
+}
+
+.listSelectionScreenSelection .title p.label1 {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.listSelectionScreenSelection .title p.label2 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.listSelectionScreenSelection .item {
+	background-color: #24B7B3;
+	padding: 15px;
+	text-align: right;
+}
+
+.listSelectionScreenSelection .item p.label1 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.listSelectionScreenSelection .item {
+	background-color: #A1D7DD;
+}
+
+.listSelectionScreenSelection .active {
+	color: #d53663;
+}
+
+.listSelectionScreenSelection .active p {
+	font-weight: normal;
+}
+
+.listSelectionScreenSelection .active p.label1 {
+	padding-bottom: 5px;
+}
+/* End */
+
+/* Input Screen */
+input[type="text"].currencyInput {
+	background: url("../../projectAssets/content/input_currency.png") no-repeat;
+}
+
+input[type="text"].currencyInput:focus {
+	background: url("../../projectAssets/content/input_currency.png") no-repeat;
+}
+
+.inputArea {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	border: 0;
+}
+
+.inputScreen .line {
+	text-align: center;
+}
+
+.inputScreen .label1 {
+	font-size: 28px;
+}
+
+.inputScreen .label2 {
+	font-size: 18px;
+}
+
+.inputScreen .inputLabel {
+	font-size: 28px;
+	text-align : right;
+}
+
+.inputScreen .radioButtons {
+	width: 100%;
+}
+
+.inputScreen .radioButtons  radiobutton{
+	position: relative;
+	float: left;
+	margin: 0 5px;
+}
+
+.inputScreen .radioButtonSelected{
+	background: url("../../projectAssets/misc/btn_select.png") no-repeat;
+	width: 200px;
+	height : 60px;
+}
+
+.inputScreen .radioButtonDeselected{
+	background: url("../../projectAssets/misc/btn_deselect.png") no-repeat;
+	width: 200px;
+	height : 60px;
+}
+
+.inputScreen .radioButtonSelected .inputScreenBtnLbl1{
+	font-size: 24px;
+	text-align : right;
+	padding-top: 10px;
+	padding-right: 5px;
+	color: #FFFFFF;
+}
+
+.inputScreen .radioButtonSelected .inputScreenBtnLbl2{
+	font-size: 16px;
+	text-align : right;
+	padding-top: 8px;
+	padding-right: 5px;
+	color: #FFFFFF;
+}
+
+.inputScreen .radioButtonDeselected .inputScreenBtnLbl1{
+	font-size: 24px;
+	text-align : right;
+	padding-top: 10px;
+	padding-right: 5px;
+	color: #FFFFFF;
+}
+
+.inputScreen .radioButtonDeselected .inputScreenBtnLbl2{
+	font-size: 16px;
+	text-align : right;
+	padding-top: 8px;
+	padding-right: 5px;
+	color: #FFFFFF;
+
+}
+
+
+.inputScreenLbl3,
+.inputScreenLbl4,
+.inputScreenLbl5,
+.inputScreenLbl6 {
+	font-size: 28px;
+}
+
+.inputScreen .inputQuestChiLbl1
+{
+	font-size: 22px;
+	line-height: 23px;
+}
+
+.inputScreen .inputQuestEngLbl1
+{
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.inputScreenLbl7,
+.inputScreenLbl8,
+.inputScreenLbl9,
+.inputScreenLbl10,
+.inputScreenLbl11,
+.inputScreenLbl12 {
+	font-size: 19px;
+}
+
+.inputScreenLbl4,
+.inputScreenLbl6,
+.inputScreenLbl8,
+.inputScreenLbl11 {
+	color: #C80852;
+}
+
+.singleCol .col2 {
+	width: 100%;
+}
+
+.twoCol .col1 {
+	width: 25%;
+}
+
+.twoCol .col2 {
+	width: 70%;
+
+}
+
+.twoCol input[type="text"] {
+	margin-left: 20px;
+	margin-top: 0px;
+}
+
+.threeCol .col1 {
+	width: 25%;
+}
+
+.threeCol .col2 {
+	width: 70%;
+}
+
+.threeCol .shortInput {
+	width: 230px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.threeCol .col21,
+.threeCol .col22 {
+	position: relative;
+	float: left;
+}
+
+.threeCol .col22 {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.depositAmount {
+	height: 703px;
+}
+/*
+.twoCol .col2 input[type="text"],
+.threeCol .col2 input[type="text"] {
+	margin-left: 0;
+	margin-right: 0;
+}
+*/
+
+.inputScreenSummaryDetails {
+	border: none;
+	width: 700px;
+	margin: 10px auto;
+}
+
+.inputScreenSummaryDetails .col1 {
+	width: 40%;
+}
+
+.inputScreenSummaryDetails .col2 {
+	text-align: right;
+}
+
+.inputScreenSummaryDetails .label1 {
+	font-size: 25px;
+	line-height: 26px;
+}
+
+.inputScreenSummaryDetails .label2 {
+	font-size: 20px;
+	margin-top: -15px;
+	line-height: 21px;
+}
+
+.inputScreenSummaryDetails .label3 {
+	font-size: 26px;
+	line-height: 27px;
+}
+
+
+.inputScreenSummaryDetails tr:nth-child(even) {
+	background-color: #EFEFEF;
+}
+
+.btnNo {
+	background-color: #24B7B3;
+	width: 160px;
+	height: 60px;
+	position: relative;
+	display: block;
+	padding: 5px 0;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-align: center;
+	line-height: 1.2;
+}
+
+.btnNo:hover {
+	color: #FFFFFF;
+}
+
+.btnNo .inputScreenBtnLbl1 {
+	font-size: 22px;
+}
+
+.btnNo .inputScreenBtnLbl2 {
+	font-size: 16px;
+}
+
+.inputError {
+	position: absolute;
+	width: 300px;
+	height: 120px;
+	right: 0;
+	margin-top: -60px;
+	padding-right: 15px;
+	text-align: left;
+	color: #FFFFFF;
+	font-weight: normal;
+	background: url("../../projectAssets/misc/arrow.png") 10px 60px no-repeat;
+	z-index: 1;
+}
+
+.inputError .errorArea {
+	width: 245px;
+	height: 120px;
+	position: relative;
+	float: right;
+	background-color: #A1D7DD;
+	padding: 20px;
+}
+
+.inputError p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.1;
+	color : #000000;
+}
+
+.inputError .error1 {
+	font-size: 22px;
+	height: 50px;
+}
+}
+
+.inputError .error2 {
+	height: 30px;
+}
+/* End */
+
+
+/* Summary Screen */
+.summaryScreenLbl1,
+.summaryScreenLbl2 {
+	text-align: center;
+}
+
+.summaryScreenWarningLbl3 {
+	text-align: center;
+	font-size: 38px;
+}
+
+.summaryScreen table {
+	border: none;
+	width: 700px;
+	margin: 10px auto;
+}
+
+.summaryScreen .summaryScreenReminder
+{
+	width: 850px;
+	margin: 10px auto;
+}
+
+.summaryScreen .col1 {
+	width: 40%;
+}
+
+.summaryScreen .col2 {
+	text-align: right;
+}
+
+.summaryScreen .col1 .summaryItemLabelRed,
+.summaryScreen .col2 .summaryItemLabelRed {
+	color : #C80852;
+}
+
+.summaryScreen .label1 {
+	font-size: 25px;
+	line-height: 26px;
+}
+
+.summaryScreen .label2 {
+	font-size: 20px;
+	margin-top: -15px;
+	line-height: 21px;
+}
+
+.summaryScreen .label3 {
+	font-size: 26px;
+	line-height: 27px;
+}
+
+
+.summaryScreen table tr:nth-child(even) {
+	background-color: #EFEFEF;
+}
+
+.summaryScreenButtons a {
+	width: 243px;
+	height: 85px;
+	text-align: center;
+	position: relative;
+	float: left;
+	display: block;
+	color: #FFFFFF;
+	margin: 10px auto;	
+	background-color: #24B7B3;
+	margin: 10px;
+	line-height: 1.2;
+	padding: 15px 0 0 0;
+}
+
+.summaryScreenButtons .summaryScreenBtnLbl1 {
+	font-size: 26px;
+}
+
+.summaryScreenButtons .summaryScreenBtnLbl2 {
+	font-size: 18px;
+}
+
+.singleCol .summaryScreenButtons {
+	width: 263px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.twoCol .summaryScreenButtons {
+	width: 526px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* End */
+
+/*  Custom Foundation CSS */
+.radius,
+input[type="text"].radius {
+	border-radius: 10px; 
+}
+/* End */
+
+/* Transaction State */
+.processPleaseWaitImg {
+	background: url("../../projectAssets/pleasewait.png") no-repeat;
+	width: 1280px;
+	height: 1024px;
+	padding-top: 675px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.processPleaseWaitImg .processScreenLblChi {
+	font-size: 36px;
+}
+
+.processPleaseWaitImg .processScreenLblEng {
+	font-size: 20px;
+	margin-top: -10px;
+}
+/* End */
+
+/* Device State */
+.deviceProcessing {
+	height: 703px;
+	text-align: center;
+	padding: 120px 85px 0 85px;
+}
+
+.deviceProcessing .deviceProcessScreenLblChi {
+	font-size: 36px;
+}
+
+.deviceProcessing .deviceProcessScreenLblEng {
+	font-size: 20px;
+	margin-top: -10px;
+}
+/* End */
+
+/**My Favorite State Module **/
+p.myFavScreenLabel1 {
+	margin-top: 55px;
+}
+
+.favoriteButtons a {
+	width: 260px;
+	height: 100px;
+	text-align: center;
+	position: relative;
+	display: block;
+	color: #FFFFFF;
+	margin: 10px auto;
+}
+
+.favoriteButtons a.myFavoriteButton
+{
+	 /* background: url("../../projectAssets/content/btn_withdraw.png") no-repeat;  */
+	 background-color: #24B7B3;
+}
+
+.favoriteButtons a.myFavoriteDisableButton
+{
+	 /* background: url("../../projectAssets/content/btn_withdraw.png") no-repeat;  */
+	 background-color: #C2C2C2;
+}
+
+.favoriteButtons .myFavoriteButtonLbl1{
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.favoriteButtons .myFavoriteButtonLbl2 {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
+
+.favoriteNavigationButtons {
+	height: 70px;
+	width: 40px;
+	margin-top: 220px;
+}
+
+.myFavleftNavigation .favoriteButtons {
+	 background: url("../../projectAssets/content/btn_left.png") no-repeat; 
+}
+
+.myFavrightNavigation .favoriteButtons {
+	 background: url("../../projectAssets/content/btn_right.png") no-repeat; 
+}
+
+.myFavleftNavigation,
+.myFavrightNavigation {
+	width: 85px;
+	padding-left: 22px;
+}
+
+.myFavcenterColumn {
+	width: 854px;
+}
+
+.myFavleftNavigation,
+.myFavrightNavigation,
+.myFavcenterColumn {
+	position: relative;
+	float: left;
+	height: 523px;
+}
+
+.myFavcenterColumn .item, 
+.myFavcenterColumn .block3 {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 0;
+}
+
+.myFavcenterColumn .block3 li {
+	width: 33%;
+	position: relative;
+	float: left;
+	display: block;
+}
+
+.myFavoriteButton {
+	line-height: 1.2;
+	padding-top: 5px;
+}
+
+.favoriteRemoveBtn {
+	position: absolute;
+	width : 40px;
+	height : 40px;
+	margin-left: 240px;
+	font-size: 35px;
+	display: block;
+	z-index: 1;
+	color: #ff0000;
+	margin-top: -120px;
+	font-weight: normal;
+	font-family: arial;
+	background: url("../../projectAssets/misc/fav_delete.png") no-repeat; 
+}
+
+#removeConfirmationBox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1280px;
+	height: 1024px;
+	background-color: rgba(0,0,0,0.2);
+	z-index: 100;
+	margin-left: -85px;
+	margin-top: -65px;
+}
+
+.messageArea {
+	width: 400px;
+	height: 150px;
+	background: #FFFFFF;
+	margin: 305px auto;
+	padding: 15px;
+	text-align: center;
+}
+
+.messageArea .label1 {
+	font-size: 28px;
+}
+
+.messageArea .label2 {
+	font-size: 18px;
+	margin-top: -10px;
+}
+
+.messageArea .buttons {
+	width: 240px;
+	margin: 0 auto;
+}
+
+#removeYes, #removeNo{
+	background-color: #24B7B3;
+	display: block;
+	position: relative;
+	float: left;
+	width: 100px;
+	margin: 10px;
+	color: #FFFFFF;
+}
+
+#removeYes:hover, #removeNo:hover {
+	color: #FFFFFF;
+}
+
+#removeYes .label1,
+#removeNo .label1 {
+	font-weight: normal;
+}
+
+#removeYes .label2,
+#removeNo .label2 {
+	margin-top: -10px;
+	display: block;
+	font-size: 16px;
+}
+
+/* End */
+
+/* Transaction Summary */
+
+
+.transactionSummaryScreen .descriptionLine1,
+.transactionSummaryScreen .descriptionLine2,
+.transactionSummaryScreen .descriptionLine3 {
+	text-align: center;
+}
+
+.transactionSummaryScreen .descriptionLine3 {
+	font-size: 18px;
+}
+
+.transactionSummaryScreen table {
+	border: none;
+	width: 900px;
+	margin: 10px auto;
+}
+
+.transactionSummaryScreen .col1,
+.transactionSummaryScreen .col2,
+.transactionSummaryScreen .col3,
+.transactionSummaryScreen .col4 {
+	width: 25%;
+	text-align: center;
+}
+
+.transactionSummaryScreen thead td {
+	text-align: center;
+}
+
+.transactionSummaryScreen thead .lineCol1 {
+	text-align: left;
+	position: relative;
+}
+
+.transactionSummaryScreen thead .lineCol2 {
+	text-align: right;
+	position: relative;
+}
+
+.transactionSummaryScreen thead .label1 {
+	font-size: 25px;
+}
+
+.transactionSummaryScreen thead .label2 {
+	font-size: 20px;
+	margin-top: -15px;
+}
+
+.transactionSummaryScreen table tbody tr:nth-child(even) {
+	background-color: #EFEFEF;
+}
+
+.transactionSummaryScreen .transactionSummaryButton {
+	width: 243px;
+	height: 85px;
+	text-align: center;
+	position: relative;
+	display: block;
+	color: #FFFFFF;
+	margin: 10px auto;	
+	background-color: #24B7B3;
+	margin: 10px;
+	line-height: 1.2;
+	padding: 15px 0 0 0;
+}
+
+.transactionSummaryScreen .transactionSummaryButton .label1 {
+	font-size: 26px;
+}
+
+.transactionSummaryScreen .transactionSummaryButton .label2 {
+	font-size: 18px;
+}
+
+.singleCol .transactionSummaryButtons {
+	width: 263px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.twoCol .transactionSummaryButtons {
+	width: 526px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.transactionSummaryScreen .label1,
+.transactionSummaryScreen .label2,
+.transactionSummaryScreen .label3,
+.transactionSummaryScreen .label4 {
+	font-size: 22px;
+}
+
+.transactionSummaryScreen .details tbody td:nth-child(-n+3) {
+	text-align: center;
+}
+
+.transactionSummaryScreen .details tbody td:nth-child(4) {
+	text-align: right;
+	padding-right : 50px;
+}
+
+.transactionSummaryScreen .details tbody td.summaryDate {
+	text-align: center;
+}
+/* End */
+
+/* List Box */
+.listBoxScreen .leftNavigation,
+.listBoxScreen .rightNavigation {
+	width: 50px;
+	padding-left: 5px;
+	padding-top: 200px;
+	height: 70px;
+}
+
+.listBoxScreen .centerColumn {
+	width: 924px;
+}
+
+.listBoxScreen .leftNavigation,
+.listBoxScreen .rightNavigation,
+.listBoxScreen .centerColumn {
+	position: relative;
+	float: left;
+	/* height: 455px;*/
+	height: 480px;
+}
+
+/*
+.listBoxScreen .centerColumn .item, 
+.listBoxScreen .centerColumn .block3 {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 0;
+} */
+
+.listBoxScreen .centerColumn .block4 li {
+	width: 25%;
+	position: relative;
+	float: left;
+	display: block;
+	padding-top: 5px;
+}
+
+.listBoxScreen .centerColumn .block4 {
+	margin: 0;
+}
+
+.listBoxScreenArea {
+	height: 70px;
+	width: 40px;
+}
+
+.listBoxScreenButtons a {
+	width: 200px;
+	height: 60px;
+	background-color: #24B7B3;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFFFFF;
+	padding-top: 10px;
+}
+
+.listBoxScreenButtons a .label1 {
+	font-size: 16px;
+	
+	font-weight: normal;
+	padding-top: 10px;
+	padding-right: 5px;
+	width: 50px; 
+	text-align: right;
+	display: block;
+	position: relative;
+	float: left;
+}
+
+.listBoxScreenButtons a .label2 {
+	font-size: 22px;
+	font-weight: normal;
+	width: 145px; 
+	padding-top: 5px;
+	text-align: center;
+	display: block;
+	position: relative;
+	float: left;
+}
+
+.listBoxExtraButtons {
+	width: 1280px;
+	position: relative;
+	float: left;
+}
+
+.listBoxExtraButtons .sixBtnReturn {
+	background-color: #24B7B3;
+	color: #FFFFFF;
+	width: 150px;
+	display: block;
+	text-align: center;
+	margin-left: 70px;
+	position: relative;
+	z-index: 5;
+}
+
+.listBoxExtraButtons .sixBtnReturn:hover {
+	color: #FFFFFF;
+}
+
+.listBoxScreen .centerColumn .block3 li {
+	width: 33.3%;
+	position: relative;
+	float: left;
+	display: block;
+	padding-top: 15px;
+}
+/* End */
+
+
+/* Cash In Counter Summary */
+.cashCounterSummaryScreen .descriptionLine1,
+.cashCounterSummaryScreen .descriptionLine2,
+.cashCounterSummaryScreen .descriptionLine3 {
+	text-align: left;
+	margin-left : 60px;
+}
+
+.cashCounterSummaryScreen .descriptionLine3 {
+	font-size: 18px;
+}
+
+.cashCounterSummaryScreen .descriptionLabel4 {
+	font-size: 22px;
+}
+
+.cashCounterSummaryScreen table {
+	border: none;
+	width: 900px;
+	margin: 10px auto;
+}
+
+.cashCounterSummaryScreen .col1,
+.cashCounterSummaryScreen .col2,
+.cashCounterSummaryScreen .col3,
+.cashCounterSummaryScreen .col4 {
+	width: 25%;
+}
+
+.cashCounterSummaryScreen thead td {
+	text-align: center;
+}
+
+.cashCounterSummaryScreen thead .label1 {
+	font-size: 25px;
+}
+
+.cashCounterSummaryScreen thead .label2 {
+	font-size: 20px;
+	margin-top: -15px;
+}
+
+.cashCounterSummaryScreen table tbody tr:nth-child(even) {
+	background-color: #EFEFEF;
+	text-align: center;
+}
+
+.cashCounterSummaryScreen table tbody .label1 {
+	display: block;
+	float: left;
+	padding-left: 50px;
+	text-align: left;
+	width: 50%;	
+}
+
+.cashCounterSummaryScreen table tbody .label1a {
+	display: block;
+	float: left;
+	width: 50%;
+	text-align: right;
+}
+
+.cashCounterSummaryButtons a {
+	width: 243px;
+	height: 85px;
+	text-align: center;
+	position: relative;
+	display: block;
+	color: #FFFFFF;
+	margin: 10px auto;	
+	background-color: #24B7B3;
+	margin: 10px;
+	line-height: 1.2;
+	padding: 15px 0 0 0;
+	float: left;
+}
+
+.cashCounterSummaryButtons .label1 {
+	font-size: 26px;
+}
+
+.cashCounterSummaryButtons .label2 {
+	font-size: 18px;
+}
+
+.singleCol .cashCounterSummaryButtons {
+	width: 263px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.twoCol .cashCounterSummaryButtons {
+	width: 526px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.threeCol .cashCounterSummaryButtons {
+	width: 789px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cashCounterSummaryScreen .label1,
+.cashCounterSummaryScreen .label1a,
+.cashCounterSummaryScreen .label2,
+.cashCounterSummaryScreen .label3,
+.cashCounterSummaryScreen .label4 {
+	font-size: 22px;
+}
+
+.details .depositBreakdown td:nth-child(-n+3),
+.details .depositTotal td:nth-child(3) {
+	text-align: center;
+}
+
+.details .depositBreakdown td:nth-child(1),
+.details .depositBreakdown td:nth-child(4),
+.details .depositTotal td:nth-child(4),
+.details .depositSummary td:nth-child(4) {
+	text-align: right;
+	padding-right : 50px;
+}
+
+
+.details .depositSummary .label1a {
+	width: 100%;
+}
+/* End */
+
+/* Define Background Color and Image */
+.deviceProcessing,
+.summaryScreen,
+.twoButtonScreen {
+  	background: #FFFFFF url("../../projectAssets/kiosk/bg_blanklogo.png") 0 100% no-repeat;
+}
+
+.twoButtonScreenbg {
+  	background: #FFFFFF url("../../projectAssets/kiosk/bg_blanklogo.png") 0 100% no-repeat;
+}
+
+.inputBackground {
+	position: absolute;
+	width: 1280px;
+	height: 733px;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	/* background-color: #EEF7F7; */
+}
+
+table, tr, td, input {
+	background-color: transparent;
+}
+/* End */
+
+/* Video */
+#device_video { 
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+/* End */
+
+/* Notification */
+.notification {
+	position:absolute;
+	width: 1280px;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+	line-height: 1.2;
+}
+
+.notification .label1,
+.notification .label2,
+.notification .label3 {
+	font-size: 28px;
+	color: #C80852;
+}
+
+.notification .label4,
+.notification .label5,
+.notification .label6 {
+	font-size: 20px;
+	color: #C80852;
+}
+
+.notification .label1,
+.notification .label2,
+.notification .label3,
+.notification .label4,
+.notification .label5,
+.notification .label6 {
+	width: 854px;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 1.1;
+}
+
+.sixButtonScreen .notification,
+.summaryScreen .notification,
+.twoButtonScreen .notification,
+.myFavoriteScreen .notification,
+.inputScreenNotice .notification,
+.transactionSummaryScreen .notification,
+.depositAmount .notification {
+	background-color: rgba(255,255,255,0.6);
+}
+
+.inputScreenNotice .notification
+{
+	bottom: -55px;
+}
+
+.depositAmount .notification {
+	bottom: -180px;
+}
+.notificationAlertBottom,
+.notificationAlert {
+	background: rgba(255,255,255,0.6) url("../../projectAssets/misc/notice_bright.png") 80px 0 no-repeat;
+}
+.notificationAlertBottom .label1,
+.notificationAlertBottom .label2,
+.notificationAlertBottom .label3,
+.notificationAlertBottom .label4,
+.notificationAlertBottom .label5,
+.notificationAlertBottom .label6,
+.notificationAlert .label1,
+.notificationAlert .label2,
+.notificationAlert .label3,
+.notificationAlert .label4,
+.notificationAlert .label5,
+.notificationAlert .label6 {
+	padding-left: 100px;
+}
+
+.notificationAlertBottom
+{
+	position: absolute;
+	height: 100px;
+	top : 603px;
+	text-align: left;
+}
+
+.deviceScreenNotice .notification,
+.summaryScreenNotice .notification
+{
+	bottom: 0px;
+}
+
+.sixButtonScreen .notification {
+	bottom: -55px;
+}
+/* End */
+
+/* My Preference */
+#myFavoriteContainer {
+	background-color: #24B7B3;
+	/* #A1D7DD; */
+	top : 586px;
+  	position: absolute;
+  	height: 55px;
+  	margin: 0;
+  	width: 100%;
+}
+
+#myFavoriteContainer .content {
+	position: relative;
+	float: right;
+	margin-right: 230px;
+}
+
+#myFavoriteContainer .labels,
+#myFavoriteSettingsContainer,
+#myFavoritePrintingContainer {
+	position: relative;
+	float: left;
+	height: 55px;
+	border-right: solid #FFFFFF 1px;
+}
+
+#myFavoriteContainer .label1,
+.title p.sixButtonScreenLabel1,
+#btnOpenFavSettingContent p.sixButtonScreenLabel1,
+#btnOpenPrintingSettingContent p.sixButtonScreenLabel1 {
+	font-size: 22px;
+	line-height: 1;
+	padding: 0;
+	margin: 0;
+	margin-top: 0;
+}
+
+#myFavoriteContainer .label2,
+.title p.sixButtonScreenLabel2,
+#btnOpenFavSettingContent .sixButtonScreenLabel2,
+#btnOpenPrintingSettingContent .sixButtonScreenLabel2 {
+	font-size: 16px;
+	line-height: 1;
+	padding: 0;
+	margin: 0;
+}
+
+#myFavoriteContainer .labels {
+	padding: 10px 10px 0 10px;
+	font-weight: normal;
+}
+
+#btnOpenFavSettingContent,
+#btnOpenPrintingSettingContent {
+	padding: 10px 0 10px 60px;
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 55px;
+	z-index: 1;
+	background-color: #A1D7DD;
+}
+
+#btnOpenPrintingSettingContent .sixButtonScreenLabel1,
+#btnOpenPrintingSettingContent .sixButtonScreenLabel2,
+#btnOpenFavSettingContent .sixButtonScreenLabel1,
+#btnOpenFavSettingContent .sixButtonScreenLabel2 {
+	font-weight: normal;
+}
+
+#myFavoriteContainer .labels {
+	width: 150px;
+}
+
+#myFavoriteSettingsContainer,
+#myFavoritePrintingContainer {
+	width: 220px;
+}
+
+#myFavoriteSettingContent,
+#myFavoritPrintingContent {
+	position: absolute;
+	bottom: 55px;
+}
+
+#myFavoritPrintingContent .sixButtonScreenLabel1,
+#myFavoriteSettingContent .sixButtonScreenLabel1,
+#myFavoritPrintingContent .items a .label1,
+#myFavoriteSettingContent .items a .label1 {
+	font-size: 22px;
+}
+
+#myFavoritPrintingContent .sixButtonScreenLabel2,
+#myFavoriteSettingContent .sixButtonScreenLabel2,
+#myFavoritPrintingContent .items a .label2,
+#myFavoriteSettingContent .items a .label2 {
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+#myFavoritPrintingContent .title,
+#myFavoriteSettingContent .title {
+	padding: 5px 10px;
+	background-color: #24B7B3;
+}
+
+#myFavoritPrintingContent .items,
+#myFavoriteSettingContent .items {
+	background-color: #A1D7DD;
+}
+
+#myFavoritPrintingContent .items a,
+#myFavoriteSettingContent .items a {
+	display: block;
+	position: relative;
+	float: left;
+	width: 220px;
+	background-color: #A1D7DD;
+	line-height: 1.2;
+	padding: 5px;
+	color: #000000;
+	font-weight: normal;
+	padding-left: 5px;
+}
+
+#myFavoritPrintingContent .items a .label3,
+#myFavoriteSettingContent .items a .label3 {
+	text-align: right;
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+#myFavoritPrintingContent .title,
+#myFavoriteSettingContent .title,
+#myFavoritPrintingContent .items a,
+#myFavoriteSettingContent .items a {
+	border-bottom: #FFFFFF 1px solid;
+	border-right: solid #FFFFFF 1px;
+}
+
+#myFavoritPrintingContent .items .active,
+#myFavoriteSettingContent .items .active {
+	color: #d53663;
+}
+
+#exitAppContainer
+{
+	width: 1280px;
+  	height: 1024px;
+  	margin: 0;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	z-index: 100;
+	background-color: rgba(0,0,0,0.5);
+}	
+
+#exitAppContainer div.messageArea {
+	width: 800px;
+	height: 180px;
+	background-color: #FFFFFF;
+	padding: 15px;
+	margin: 300px auto 0 auto;
+}
+
+.activeListenerButtons {
+	width: 440px;
+	margin: -20px auto 0 auto;
+	position: relative;
+	height: 100px;
+}
+
+#exitAppContainer .activeListenerButtons a {
+	position: relative;
+	float: left;
+	color: #FFFFFF;
+	width: 200px;
+	background: #24B7B3;
+	margin: 10px;
+	padding-top: 15px;
+}
+/* End */
+
+/* Press Effect */
+.sixButtonScreenButtons a.pressed,
+.cashCounterSummaryButtons a.pressed,
+.activeListenerButtons a.pressed,
+.inputScreen a.pressed,
+.listBoxScreenButtons a.pressed,
+.listBoxExtraButtons a.pressed,
+.favoriteButtons a.pressed,
+.summaryScreenButtons a.pressed,
+.transactionSummaryButtons a.pressed,
+.twoButtonScreen .buttons a.pressed {
+	background-color: #10918C;
+}
+/* End */
+
+/* Customization For Sliding */
+.listBoxScreenButtons {
+	position: absolute;
+	width: 1280px;
+	top: -65px;
+	left: -50px;
+}
+
+
+.listBoxScreenButtons .item {
+	width: 1280px;
+	height : 633px;
+	padding-top: 150px;
+	padding-left: 50px;
+	padding-right: 50px;
+	z-index: 1;
+}
+
+.sixButtonScreenButtons {
+	position: absolute;
+	width: 1280px;
+	top: -65px;
+	left: -85px;
+}
+
+.sixButtonScreenButtons .item {
+	width: 1280px;
+	height : 633px;
+	padding-top: 200px;
+	padding-left: 85px;
+	padding-right: 85px;
+	z-index: 1;
+}
+
+.listBoxScreenButtons .owl-controls {
+	margin-top: -95px;
+	z-index: 2;
+	position:absolute;
+	width: 100%;
+}
+
+.sixButtonScreenButtons .owl-controls {
+	margin-top: -95px;
+	z-index: 2;
+	position:absolute;
+	width: 100%;
+}
+
+.listBoxScreen .leftNavigation,
+.listBoxScreen .rightNavigation,
+.sixButtonScreenContent .leftNavigation,
+.sixButtonScreenContent .rightNavigation,
+.listSelectionScreen,
+.listSelectionScreenSelection {
+	z-index: 2;
+}
+
+.listBoxExtraButtons {
+	margin-top: -10px;
+	/* z-index: -1; */ /* Remove so that back button can function properly */
+}
+
+.twoButtonScreenImage
+{
+	top :-70px;
+	left : 0px;
+	width : 1280px;
+	position: absolute;;
+}
+
+.owl-theme .owl-controls .owl-page span {
+	width: 35px;
+	height: 35px;
+	z-index: 4;
+}
+
+/*
+.owl-theme .owl-controls .owl-page span, 
+.owl-theme .owl-controls .owl-page a {
+	display: block;
+	width: 35px;
+	height: 35px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+	z-index: 4;
+	padding-top: 0;
+}
+
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span,
+.owl-theme .owl-controls .owl-page.active a,
+.owl-theme .owl-controls.clickable .owl-page:hover a {
+	filter: Alpha(Opacity=100);
+	opacity: 1;
+}
+*/
+/* End */
+
+/* KIOSK INPUT SCREEN */
+.kiosk .inputScreenLbl1, .kiosk .inputScreenLbl2 { text-align: center; }
+.kiosk .inputScreenLbl1 { margin-top: 140px; font-size: 50px; }
+.kiosk input[type='text'] {
+	width: 680px;
+	height: 100px;
+	margin: 50px auto 0 auto;
+	font-size: 50px;
+	text-align: right;
+	border-radius: 15px;
+	font-weight: normal;
+}
+
+.kiosk .line span { font-size: 30px; }
+.kiosk .inputScreenLbl7, .kiosk .inputScreenLbl8, .kiosk .inputScreenLbl9 { padding-top: 55px; display: inline-block; }
+
+.creditCardId { background: #FFFFFF url("../../projectAssets/kiosk/bg2.png") no-repeat 50% 100%; }
+.creditCardAmount { background: #EEF7F7; }
+/* END */

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=10;text/html; charset=utf-8">
+    <title>ACTransact HTML Project</title>
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/video-js.css">
+    <link rel="stylesheet" href="assets/css/styleInfo.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- HTML Container Structure Begin -->
+    <div id="main">
+    </div>
+    <!-- HTML Container Structure End -->
+    <!-- Application Layout Manager Template Begin -->
+    <script id="template1" type="text/template" class="template1">
+        <div id='header' class="template1 small-12 columns">
+            <% for(var i=0; i<labels.length; i++) { %>
+                <div>
+                    <%= labels[i] %>
+                </div>
+                <% } %>
+        </div>
+        <div class="row">
+            <div id='leftContainer' class="small-2 columns"></div>
+            <div id="rightcontainer" class="small-10 columns"></div>
+        </div>
+    </script>
+    <script id="template1Child" type="text/template" class="template1Child">
+        <div class="template1Child">
+            <% for(var i=0; i<labels.length; i++) { %>
+                <div>
+                    <%= labels[i] %>
+                </div>
+                <% } %>
+        </div>
+    </script>
+    <!-- Modules END -->
+    <!-- Application source. -->
+    <script data-main="app/config" src="assets/js/libs/require.min.js"></script>
+</body>
+
+</html>
